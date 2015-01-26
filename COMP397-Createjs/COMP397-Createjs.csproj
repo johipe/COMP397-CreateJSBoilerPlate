@@ -57,6 +57,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\images\images.jpg" />
+    <Content Include="assets\images\images2.jpg" />
     <Content Include="css\game.css" />
     <Content Include="index.html" />
     <Content Include="Scripts\lib\easeljs-0.8.0.min.js" />
@@ -92,7 +94,6 @@
   <ItemGroup>
     <Folder Include="assets\audio\" />
     <Folder Include="assets\fonts\" />
-    <Folder Include="assets\images\" />
     <Folder Include="Scripts\typings\createjs-lib\" />
     <Folder Include="Scripts\typings\createjs\" />
     <Folder Include="Scripts\typings\easeljs\" />

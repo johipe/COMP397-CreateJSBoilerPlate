@@ -12,8 +12,8 @@
 
 // Library documentation : http://www.createjs.com/Docs/SoundJS/modules/SoundJS.html
 
-/// <reference path="../createjs-lib/createjs-lib.d.ts" />
-/// <reference path="../preloadjs/preloadjs.d.ts" />
+/// <reference path="createjs-lib.d.ts" />
+/// <reference path="preloadjs.d.ts" />
 /// <reference path="../webaudioapi/waa.d.ts" />
 
 declare module createjs {

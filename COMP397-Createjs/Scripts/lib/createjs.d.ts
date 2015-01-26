@@ -1,3 +1,5 @@
+
+
 // Type definitions for CreateJS
 // Project: http://www.createjs.com/
 // Definitions by: Pedro Ferreira <https://bitbucket.org/drk4>, Chris Smith <https://github.com/evilangelist>, Satoru Kimura <https://github.com/gyohk>
@@ -15,10 +17,9 @@
 // Library documentation : http://www.createjs.com/Docs/SoundJS/modules/SoundJS.html
 // Library documentation : http://www.createjs.com/Docs/TweenJS/modules/TweenJS.html
 
-
-/// <reference path="../createjs-lib/createjs-lib.d.ts" />
-/// <reference path="../easeljs/easeljs.d.ts" />
-/// <reference path="../tweenjs/tweenjs.d.ts" />
-/// <reference path="../preloadjs/preloadjs.d.ts" />
-/// <reference path="../soundjs/soundjs.d.ts" />
+/// <reference path="soundjs.d.ts" />
+/// <reference path="preloadjs.d.ts" />
+/// <reference path="tweenjs.d.ts" />
+/// <reference path="easeljs.d.ts" />
+/// <reference path="createjs-lib.d.ts" />
 

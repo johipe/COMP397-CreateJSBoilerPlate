@@ -1,3 +1,4 @@
+
 // Type definitions for TweenJS 0.6.0
 // Project: http://www.createjs.com/#!/TweenJS
 // Definitions by: Pedro Ferreira <https://bitbucket.org/drk4>, Chris Smith <https://github.com/evilangelist>
@@ -12,7 +13,7 @@
 
 // Library documentation : http://www.createjs.com/Docs/TweenJS/modules/TweenJS.html
 
-/// <reference path="../createjs-lib/createjs-lib.d.ts" />
+/// <reference path="createjs-lib.d.ts" />
 
 declare module createjs {
     export class CSSPlugin {
