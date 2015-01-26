@@ -64,12 +64,24 @@
     <Content Include="Scripts\lib\preloadjs-0.6.0.min.js" />
     <Content Include="Scripts\lib\soundjs-0.6.0.min.js" />
     <Content Include="Scripts\lib\tweenjs-0.6.0.min.js" />
+    <Content Include="Scripts\lib\createjs-lib.d.ts" />
+    <Content Include="Scripts\lib\createjs.d.ts" />
+    <Content Include="Scripts\lib\easeljs.d.ts" />
+    <Content Include="Scripts\lib\preloadjs.d.ts" />
+    <Content Include="Scripts\lib\soundjs.d.ts" />
+    <Content Include="Scripts\lib\tweenjs.d.ts" />
+    <Content Include="Scripts\typings\webaudioapi\waa-20120802.d.ts" />
+    <Content Include="Scripts\typings\webaudioapi\waa-nightly.d.ts" />
+    <Content Include="Scripts\typings\webaudioapi\waa.d.ts" />
+    <Content Include="Scripts\typings\webrtc\MediaStream.d.ts" />
+    <Content Include="Scripts\typings\webrtc\RTCPeerConnection.d.ts" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -81,6 +93,12 @@
     <Folder Include="assets\audio\" />
     <Folder Include="assets\fonts\" />
     <Folder Include="assets\images\" />
+    <Folder Include="Scripts\typings\createjs-lib\" />
+    <Folder Include="Scripts\typings\createjs\" />
+    <Folder Include="Scripts\typings\easeljs\" />
+    <Folder Include="Scripts\typings\preloadjs\" />
+    <Folder Include="Scripts\typings\soundjs\" />
+    <Folder Include="Scripts\typings\tweenjs\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
